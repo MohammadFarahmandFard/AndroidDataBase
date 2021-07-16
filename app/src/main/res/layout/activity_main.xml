@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#7BEAF8">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize"
+        android:text="Personal Information"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your ID ..."
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtId"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name ..."
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Family ..."
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtFamily"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Age ..."
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtAge"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email ..."
+        android:textSize="@dimen/textSize"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtEmail"
+        />
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textSize"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/btnSend"
+        android:background="#000"
+        android:textColor="#fff"
+        />
+
+
+
+
+
+</LinearLayout>
